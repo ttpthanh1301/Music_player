@@ -22,7 +22,7 @@
     position: relative;
     max-width: 480px;
     margin: 0 auto;
-    background: linear-gradient(to bottom,#e87c7c, #e35396) !important;
+    background: #f09bb2!important;
   }
   
   .player .icon-pause {
@@ -39,7 +39,7 @@
   
   .dashboard {
     padding: 16px 16px 14px;
-   background-color: #e87c7c;
+   background-color:#f09bb2 ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -131,7 +131,7 @@
   
   /* PLAYLIST */
   .playlist {
-    margin-top: 408px;
+    margin-top: 371px;
     padding: 12px;
   }
   
@@ -139,7 +139,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 12px;
-    background-color: #f5d1ef;
+    background-color: #f4c6e2;
     padding: 8px 16px;
     border-radius: 5px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
@@ -147,7 +147,7 @@
   
   .song.active {
     color:#fff;
-    background: linear-gradient(to top, #3a3e41, #f864bdcc);
+    background: linear-gradient(to top,#000000, #f09bb2);
   }
   
   .song:active {
